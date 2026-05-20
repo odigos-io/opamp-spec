@@ -13,5 +13,7 @@ plugins:
     out: gen/ts
   - remote: buf.build/protocolbuffers/python:v25.0
     out: gen/py
+  - remote: buf.build/protocolbuffers/java:v34.1
+    out: gen/java
 inputs:
   - directory: proto
